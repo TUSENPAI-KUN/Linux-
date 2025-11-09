@@ -1,0 +1,27 @@
+================================================
+                     LINUX
+================================================
+
+ -- Comandos básicos --
+
+cd --Significa change directory (Cambiar Directorio). Se usa para navegar entre los directorios del sistema de archivos.
+
+pwd --Muestra nuestra ubicación dentro del directorio (print working directory).
+
+   (kaii@kali)-[-/Desktop]
+   └─$ pwd
+    # muestra: /home/kali/Desktop
+
+mkdir --make directory (crear directorio). Se usa para crear nuevas carpetas/directorios en Linux.
+
+Sintaxis : mkdir [OPCIONES] NOMBRE_DIRECTORIO
+Modos de uso : 1. Crear una sola carpeta   --> mkdir documentos
+               2. Crear múltiples carpetas --> mkdir musica videos imagenes
+               3. Crear carpeta con nombre espaciado --> mkdir "mi carpeta personal"
+               
+
+echo --Muestra texto en la pantalla y su salida se puede redirigir a un archivo o pasar a otro comando.
+
+   (kaii@kali)-[-/Desktop]
+   └─$ echo "hola mi kion"
+    # muestra: hola mi kion
