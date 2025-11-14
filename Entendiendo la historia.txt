@@ -1,0 +1,29 @@
+Entendiendo la historia de Linux :O
+
+Para poder explicar que es Linux, debemos saber que es un kernel:
+
+El kernel es el núcleo del sistema operativo. Controla el hardware y coordina todos los programas.
+es un programa que vive dentro del sistema operativo
+habla con el hardware mediante drivers --> los drivers son intermediarios entre el kernel y el hardware, Un driver es un programa muy chiquito  hecho especialmente para que el sistema operativo pueda usar una parte del hardware.
+   Es como un manual de instrucciones:
+   El driver explica cómo funciona el hardware.
+   El kernel usa ese manual para controlar ese hardware.
+   Sin driver → el kernel no sabe qué hacer con ese dispositivo.
+   
+   Ejemplo clarísimo:
+   Tú mueves el mouse:
+
+   El mouse manda datos crudos (electricidad y números).
+
+   El driver del mouse traduce eso como:
+
+   “Se movió 4 pasos a la derecha.”
+
+   El kernel dice:
+
+   “Ok, mueve el cursor 4 píxeles.”
+
+   La pantalla lo muestra.
+
+   Sin driver → el kernel recibe datos que no entiende.
+el kernel necesita de los drivers porque cada hardware es diferente
