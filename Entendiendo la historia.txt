@@ -26,4 +26,8 @@ habla con el hardware mediante drivers --> los drivers son intermediarios entre 
    La pantalla lo muestra.
 
    Sin driver → el kernel recibe datos que no entiende.
-el kernel necesita de los drivers porque cada hardware es diferente
+el kernel necesita de los drivers porque cada hardware es diferente, con eso maso menos vamos entendiendo que el kernel es el encargado de mediador entre hardware y software.
+Entonces que es Linux?
+Linux no es un sistema operativo completo por si solo, es un kernel, las distros que conocemos, ubuntu mint arch fedora kali; toman el kernel Linux, agregan software , herramientas y una interfaz para formar un sistema operativo.
+Windows también tiene su propio kernel llamado NTOSKRNL (entioeskernel)
+Antes de encender la pc el kernel es un archivo guardado en el almacenamiento (disco duro)
